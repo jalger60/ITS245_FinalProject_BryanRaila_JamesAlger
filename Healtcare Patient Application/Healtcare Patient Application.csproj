@@ -46,16 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Family History Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Family History Form.Designer.cs">
+      <DependentUpon>Family History Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="General Medical History.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="General Medical History.Designer.cs">
       <DependentUpon>General Medical History.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login Form.Designer.cs">
+      <DependentUpon>Login Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Family History Form.resx">
+      <DependentUpon>Family History Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="General Medical History.resx">
       <DependentUpon>General Medical History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login Form.resx">
+      <DependentUpon>Login Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

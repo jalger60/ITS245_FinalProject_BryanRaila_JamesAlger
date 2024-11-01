@@ -168,5 +168,21 @@ namespace Healtcare_Patient_Application
         {
             SetViewMode();
         }
+
+        private void GoToFamilyHistoryBT_Click(object sender, EventArgs e)
+        {
+            Form Family_History = new Family_History_Form();
+            Family_History.Show();
+            this.Hide();
+
+        }
+
+        private void GoToLoginPageBT_Click(object sender, EventArgs e)
+        {
+            Form Login = new Login_Form();
+            Login.Show();
+            this.Hide();
+        }
     }
 }
+

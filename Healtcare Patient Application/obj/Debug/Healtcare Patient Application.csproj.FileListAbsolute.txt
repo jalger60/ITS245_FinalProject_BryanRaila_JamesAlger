@@ -8,3 +8,5 @@ E:\ITS 245 Integ Programming (PNW)\Final Project\Healtcare Patient Application\o
 E:\ITS 245 Integ Programming (PNW)\Final Project\Healtcare Patient Application\obj\Debug\Healtcare Patient Application.exe
 E:\ITS 245 Integ Programming (PNW)\Final Project\Healtcare Patient Application\obj\Debug\Healtcare Patient Application.pdb
 E:\ITS 245 Integ Programming (PNW)\Final Project\Healtcare Patient Application\obj\Debug\Healtcare_Patient_Application.GMH.resources
+E:\ITS 245 Integ Programming (PNW)\Final Project\Healtcare Patient Application\obj\Debug\Healtcare_Patient_Application.Family_History_Form.resources
+E:\ITS 245 Integ Programming (PNW)\Final Project\Healtcare Patient Application\obj\Debug\Healtcare_Patient_Application.Login_Form.resources

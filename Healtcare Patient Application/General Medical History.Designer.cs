@@ -79,6 +79,9 @@ namespace Healtcare_Patient_Application
             this.SaveBT = new System.Windows.Forms.Button();
             this.UndoBT = new System.Windows.Forms.Button();
             this.DeleteBT = new System.Windows.Forms.Button();
+            this.GoToFamilyHistoryBT = new System.Windows.Forms.Button();
+            this.PatientAgeLB = new System.Windows.Forms.Label();
+            this.GoToLoginPageBT = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -516,6 +519,7 @@ namespace Healtcare_Patient_Application
             // 
             // AddBT
             // 
+            this.AddBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddBT.Location = new System.Drawing.Point(325, 550);
             this.AddBT.Name = "AddBT";
             this.AddBT.Size = new System.Drawing.Size(151, 32);
@@ -526,6 +530,7 @@ namespace Healtcare_Patient_Application
             // 
             // ModifyBT
             // 
+            this.ModifyBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ModifyBT.Location = new System.Drawing.Point(567, 550);
             this.ModifyBT.Name = "ModifyBT";
             this.ModifyBT.Size = new System.Drawing.Size(151, 32);
@@ -536,6 +541,7 @@ namespace Healtcare_Patient_Application
             // 
             // SaveBT
             // 
+            this.SaveBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SaveBT.Location = new System.Drawing.Point(786, 550);
             this.SaveBT.Name = "SaveBT";
             this.SaveBT.Size = new System.Drawing.Size(151, 32);
@@ -546,6 +552,7 @@ namespace Healtcare_Patient_Application
             // 
             // UndoBT
             // 
+            this.UndoBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UndoBT.Location = new System.Drawing.Point(1013, 550);
             this.UndoBT.Name = "UndoBT";
             this.UndoBT.Size = new System.Drawing.Size(151, 32);
@@ -555,6 +562,7 @@ namespace Healtcare_Patient_Application
             // 
             // DeleteBT
             // 
+            this.DeleteBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteBT.Location = new System.Drawing.Point(1248, 550);
             this.DeleteBT.Name = "DeleteBT";
             this.DeleteBT.Size = new System.Drawing.Size(151, 32);
@@ -562,12 +570,47 @@ namespace Healtcare_Patient_Application
             this.DeleteBT.Text = "Delete Record";
             this.DeleteBT.UseVisualStyleBackColor = true;
             // 
+            // GoToFamilyHistoryBT
+            // 
+            this.GoToFamilyHistoryBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GoToFamilyHistoryBT.Location = new System.Drawing.Point(32, 109);
+            this.GoToFamilyHistoryBT.Name = "GoToFamilyHistoryBT";
+            this.GoToFamilyHistoryBT.Size = new System.Drawing.Size(126, 44);
+            this.GoToFamilyHistoryBT.TabIndex = 8;
+            this.GoToFamilyHistoryBT.Text = "Go To Family History";
+            this.GoToFamilyHistoryBT.UseVisualStyleBackColor = true;
+            this.GoToFamilyHistoryBT.Click += new System.EventHandler(this.GoToFamilyHistoryBT_Click);
+            // 
+            // PatientAgeLB
+            // 
+            this.PatientAgeLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PatientAgeLB.Location = new System.Drawing.Point(962, 18);
+            this.PatientAgeLB.Name = "PatientAgeLB";
+            this.PatientAgeLB.Size = new System.Drawing.Size(169, 49);
+            this.PatientAgeLB.TabIndex = 11;
+            this.PatientAgeLB.Text = "Patient\'s Age";
+            this.PatientAgeLB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // GoToLoginPageBT
+            // 
+            this.GoToLoginPageBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GoToLoginPageBT.Location = new System.Drawing.Point(32, 177);
+            this.GoToLoginPageBT.Name = "GoToLoginPageBT";
+            this.GoToLoginPageBT.Size = new System.Drawing.Size(126, 44);
+            this.GoToLoginPageBT.TabIndex = 12;
+            this.GoToLoginPageBT.Text = "Go To Login Page";
+            this.GoToLoginPageBT.UseVisualStyleBackColor = true;
+            this.GoToLoginPageBT.Click += new System.EventHandler(this.GoToLoginPageBT_Click);
+            // 
             // GMH
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1439, 608);
+            this.ClientSize = new System.Drawing.Size(1479, 621);
+            this.Controls.Add(this.GoToLoginPageBT);
+            this.Controls.Add(this.PatientAgeLB);
+            this.Controls.Add(this.GoToFamilyHistoryBT);
             this.Controls.Add(this.DeleteBT);
             this.Controls.Add(this.UndoBT);
             this.Controls.Add(this.SaveBT);
@@ -638,6 +681,9 @@ namespace Healtcare_Patient_Application
         private System.Windows.Forms.TextBox HXTB;
         private System.Windows.Forms.Label MedHistoryLB;
         private System.Windows.Forms.TextBox MedHistoryTB;
+        private Button GoToFamilyHistoryBT;
+        private Label PatientAgeLB;
+        private Button GoToLoginPageBT;
     }
 }
 
