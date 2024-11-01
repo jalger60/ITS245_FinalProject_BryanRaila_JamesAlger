@@ -1,0 +1,10 @@
+E:\ITS 245 Integ Programming (PNW)\Final Project\Healtcare Patient Application\bin\Debug\Healtcare Patient Application.exe.config
+E:\ITS 245 Integ Programming (PNW)\Final Project\Healtcare Patient Application\bin\Debug\Healtcare Patient Application.exe
+E:\ITS 245 Integ Programming (PNW)\Final Project\Healtcare Patient Application\bin\Debug\Healtcare Patient Application.pdb
+E:\ITS 245 Integ Programming (PNW)\Final Project\Healtcare Patient Application\obj\Debug\Healtcare Patient Application.csproj.AssemblyReference.cache
+E:\ITS 245 Integ Programming (PNW)\Final Project\Healtcare Patient Application\obj\Debug\Healtcare_Patient_Application.Properties.Resources.resources
+E:\ITS 245 Integ Programming (PNW)\Final Project\Healtcare Patient Application\obj\Debug\Healtcare Patient Application.csproj.GenerateResource.cache
+E:\ITS 245 Integ Programming (PNW)\Final Project\Healtcare Patient Application\obj\Debug\Healtcare Patient Application.csproj.CoreCompileInputs.cache
+E:\ITS 245 Integ Programming (PNW)\Final Project\Healtcare Patient Application\obj\Debug\Healtcare Patient Application.exe
+E:\ITS 245 Integ Programming (PNW)\Final Project\Healtcare Patient Application\obj\Debug\Healtcare Patient Application.pdb
+E:\ITS 245 Integ Programming (PNW)\Final Project\Healtcare Patient Application\obj\Debug\Healtcare_Patient_Application.GMH.resources
